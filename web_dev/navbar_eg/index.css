@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+body{
+    margin:0px;
+}
+.navbar{
+    background-color:darkblue;
+}
+p{
+margin-right:40px;
+margin-left:30px;
+text-align:center;
+
+}
+.navbar ul{
+    padding:10px;
+    list-style-type:none;
+    text-align: center;
+}
+.navbar a{
+    text-decoration: none;
+    color:azure;
+}
+.navbar li{
+    display:inline;
+    margin:20px;
+    padding:10px;
+}
+.navbar li:hover{
+    color: lightcoral;
+    background-color: rgb(0, 0, 69);
+}
