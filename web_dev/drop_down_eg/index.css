@@ -1,0 +1,40 @@
+button{
+     width:100px;
+     height:50px;
+     margin-top:30px;
+     margin-left:30px;
+}
+.drop-down{
+    display:inline-block;
+}
+.content{
+    
+    width:80px;
+    background-color: beige;
+    margin-left: 80px;
+    position:absolute;
+    box-shadow: 2px 2px 5px grey;
+    display:none;
+}
+p{
+    text-align:center;
+}
+.content a{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    padding:5px;
+}
+.content a:hover{
+    background-color: lightgrey;
+    color: darkblue;
+}
+.drop-down:hover .content{
+    display:block;
+    background-color: lightblue;
+    color: darkblue;
+}
+.drop-down:hover button{
+    background-color: rgb(138, 105, 105);
+    color: darkblue;
+}

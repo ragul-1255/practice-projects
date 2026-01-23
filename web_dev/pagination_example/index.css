@@ -1,0 +1,31 @@
+@font-face{
+    font-family:Science_gothic;
+    src:url("fonts/ScienceGothic-VariableFont_CTRS,slnt,wdth,wght.ttf");
+
+}
+p{
+    font-family:Science_gothic;
+}
+div{
+ text-align: center;   
+}
+.pagination a{
+    display:inline-block;
+    background-color:blue;
+    width:30px;
+    padding:20px;
+    color:beige;
+    text-decoration:none;
+    margin:10px;
+}
+.pagination a:hover{
+    color:rgb(64, 45, 83);
+    background-color:rgb(39, 165, 255);
+}
+.pagination a:active{
+    color:rgb(137, 27, 240);
+    background-color: aquamarine;
+}
+.pagination a.active{
+    background-color: lightgreen;
+}
